@@ -142,8 +142,8 @@ flowchart LR
 ### 1. Clonar el repositorio y configurar el entorno
 
 ```bash
-git clone [https://github.com/tu-usuario/telco-rag-cap-extraction.git](https://github.com/tu-usuario/telco-rag-cap-extraction.git)
-cd telco-rag-cap-extraction
+git clone https://github.com/raulml2/tfm-rag-cap-extraction.git
+cd tfm-rag-cap-extraction
 
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
