@@ -1,0 +1,26 @@
+# FastAPI & Servidor Backend
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+requests>=2.31.0
+
+# Frontend & Visualización
+streamlit>=1.32.0
+
+# Procesamiento y Extracción de Documentos (PDF / OCR)
+PyMuPDF>=1.23.0       # fitz
+pdfplumber>=0.10.0
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Embeddings, NLP & Búsqueda Vectorial (RAG)
+sentence-transformers>=2.5.0
+faiss-cpu>=1.8.0
+
+# Procesamiento de Datos y Utilidades Geodésicas
+numpy>=1.24.0
+pandas>=2.1.0
+openpyxl>=3.1.0
+utm>=0.7.0
