@@ -1,0 +1,472 @@
+{
+  "emplazamiento": {
+    "Direccion": "Camino de Vera, 25",
+    "Provincia": "VALENCIA",
+    "Municipio": "ALGIROS",
+    "Nodo": "TFMA101",
+    "Cluster": "MUIT2025",
+    "Cota": "55m",
+    "Latitud": "39°28'51.96 N",
+    "Longitud": "0°20'24.00 W"
+  },
+  "calculos": {
+    "hardware": {
+      "antenas": [
+        {
+          "modelo": "ASI4518R39v07",
+          "tipo_conector": "4.3-10",
+          "cantidad": 1
+        },
+        {
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "cantidad": 1
+        },
+        {
+          "modelo": "A04220PA01v06",
+          "tipo_conector": "4.3-10",
+          "cantidad": 1
+        },
+        {
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "cantidad": 1
+        }
+      ],
+      "rru": [
+        {
+          "modelo": "RRU 4499 B1/B3",
+          "tipo_conector": "4.3-10"
+        },
+        {
+          "modelo": "RRU 11 B7",
+          "tipo_conector": "4.3-10"
+        },
+        {
+          "modelo": "RRU 2479 B8/B20/B28",
+          "tipo_conector": "4.3-10"
+        },
+        {
+          "modelo": "RRU 4486 B8/B20/B28",
+          "tipo_conector": "4.3-10"
+        },
+        {
+          "modelo": "RRU 4485 B1/B3/B7",
+          "tipo_conector": "4.3-10"
+        }
+      ]
+    },
+    "antenas": {
+      "SECTOR 1": [
+        {
+          "tecnologias": [
+            "GU900",
+            "IoT ",
+            "L1800",
+            "L800",
+            "LNR700",
+            "UL2100 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "10º",
+          "altura_top": "16.20m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 4,
+            "tipo": "4x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "L2600 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "10º",
+          "altura_top": "16.20m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 2,
+            "tipo": "2x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "NR3500 "
+          ],
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "tipo": "Activa",
+          "orientacion": "10º",
+          "altura_top": "18.40m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 1,
+            "tipo": "--"
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 30.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 30.0
+          }
+        }
+      ],
+      "SECTOR 2": [
+        {
+          "tecnologias": [
+            "GU900",
+            "IoT ",
+            "L800",
+            "LNR700"
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "115º",
+          "altura_top": "15.60m",
+          "edt": "7º",
+          "coax": {
+            "cantidad": 4,
+            "tipo": "4x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "L1800",
+            "UL2100 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "115º",
+          "altura_top": "15.60m",
+          "edt": "5º",
+          "coax": {
+            "cantidad": 4,
+            "tipo": "4x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "L2600 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "115º",
+          "altura_top": "15.60m",
+          "edt": "5º",
+          "coax": {
+            "cantidad": 2,
+            "tipo": "2x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "NR3500 "
+          ],
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "tipo": "Activa",
+          "orientacion": "115º",
+          "altura_top": "17.80m",
+          "edt": "5º",
+          "coax": {
+            "cantidad": 1,
+            "tipo": "--"
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 30.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 30.0
+          }
+        }
+      ],
+      "SECTOR 3": [
+        {
+          "tecnologias": [
+            "GU900",
+            "IoT ",
+            "L1800",
+            "L800",
+            "LNR700",
+            "UL2100 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "240º",
+          "altura_top": "16.36m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 4,
+            "tipo": "4x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "L2600 "
+          ],
+          "modelo": "ASI4518R39V07",
+          "tipo": "Activa",
+          "orientacion": "240º",
+          "altura_top": "16.36m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 2,
+            "tipo": "2x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "NR3500 "
+          ],
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "tipo": "Activa",
+          "orientacion": "240º",
+          "altura_top": "18.56m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 1,
+            "tipo": "--"
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 30.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 3300.0
+          }
+        }
+      ],
+      "SECTOR 4": [
+        {
+          "tecnologias": [
+            "GU900",
+            "IoT ",
+            "L1800",
+            "L2100",
+            "L2600 ",
+            "L800",
+            "LNR700"
+          ],
+          "modelo": "A04220PA01v06",
+          "tipo": "Activa",
+          "orientacion": "300º",
+          "altura_top": "16.36m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 4,
+            "tipo": "4x1/2''",
+            "longitud": 15.0
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 20.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 20.0
+          }
+        },
+        {
+          "tecnologias": [
+            "NR3500 "
+          ],
+          "modelo": "AIR 6419 3,5 B78Y 5G",
+          "tipo": "Activa",
+          "orientacion": "300º",
+          "altura_top": "18.56m",
+          "edt": "3º",
+          "coax": {
+            "cantidad": 1,
+            "tipo": "--"
+          },
+          "fo": {
+            "cantidad": 1,
+            "longitud": 30.0
+          },
+          "vcc": {
+            "cantidad": 1,
+            "longitud": 30.0
+          }
+        }
+      ]
+    },
+    "consumo": {
+      "actual": {
+        "total": 6278.0,
+        "detalle": {
+          "eq._radio": 5126.0,
+          "tx": 300.0,
+          "baterias": 852.0,
+          "otros": 0.0
+        }
+      },
+      "reformado": {
+        "total": 7626.0,
+        "detalle": {
+          "eq._radio": 6474.0,
+          "tx": 300.0,
+          "baterias": 852.0,
+          "otros": 0.0
+        }
+      }
+    }
+  },
+  "prl": {
+    "antenas": {
+      "ubicacion": [
+        "AZOTEA TRANSITABLE"
+      ],
+      "acceso": [
+        "POR ESCALERA DE PATES"
+      ],
+      "seguridad": [
+        "SISTEMA PAPILLON (GAME SYSTEM)",
+        "SEÑALIZACION"
+      ]
+    },
+    "equipos": {
+      "ubicacion": [
+        "AZOTEA TRANSITABLE"
+      ],
+      "acceso": [
+        "POR CASETA"
+      ],
+      "seguridad": [
+        "SEÑALIZACION"
+      ]
+    }
+  },
+  "tareas": {
+    "orange": {
+      "texto": "TRABAJOS A REALIZAR POR CLIENTE:\n- IMPLANTAGION DEL 700/3500 EN VUELO\n- PLAN INTEGRACION_SECTORIZACIONES - EXCLUSION INCENTIVADO.SE ANADE UN NUEVO SECTOR. Pasar de 10° 115° 240°\na 10° 115° 240° 300°.\n- TECNOLOGIAS: CEFLMNPQTY.\n- SE MANTIENEN LAS BB EXISTENTES.\n- INSTALAR 2 NUEVOS RAILES MODELO Rail Gen2, 321mm EN PARED PARA LAS NUEVAS RRUs A INSTALAR. SE INSTALARAN\nEN PARED CONTIGUA A LAS RRUs 4499, EN DOS NIVELES. NECESARIAS DOS PIEZAS DE ANCLAJE A RAIL GEN2.\n- INSTALAR EN PDU OSP, NUEVO DISY DE 50A PARA NUEVA RADIO 4485, NUEVO DISY DE 32A PARA NUEVA RADIO 4486 Y\nNUEVO DISY DE 50A PARA NUEVA AIR.\n- ALIMENTAR PDU OSP CON CABLE DE 50mm2.\n- REUBICAR S3 A NUEVO BIFIDO A INSTALAR POR PROPIETARIO.\n- INSTALAR 1xNUEVA ANTENA A04220PA01V06 EN POLE INSTALADO POR PROPIETARIO. SE INSTALA CON LA SIGUIENTE\nORIENTACION: 3002 Y COMPACTAR TECNOLOGIAS EN DICHAS ANTENAS.\n- INSTALAR 1xNUEVA ANTENA AIR 6419 3,5 B78Y 5G EN POLE INSTALADO POR PROPIETARIO,POR ENCIMA DE LA PASIVA A\nINSTALAR . SE INSTALA CON LA SIGUIENTE ORIENTACION: 300° .\n- INSTALAR 2xNUEVAS TIRADAS DE F.O. Y 1xNUEVA Vcc (6mm2) DE 30m PARA LA NUEVA AIR6419 B78Y.\n- INSTALAR 1xNUEVAS RRU's 4486 B8/B20/B28 para L800/loT/GU900/LNR700 OSP +1xNUEVA RRU's 4485 B1/B3/B7 para\nL1800/L2100/L2600 OSP.\n- INSTALAR 4xTIRADAS DE F.O. Y 2 Vcc(6mm2 PARA RRU 4486, 10mm2 PARA RRU 4485) DE 20m PARA LAS NUEVAS RADIOS.\n- INSTALAR 8xTIRADAS DE COAXIAL 1/2\" DE 15m, PARA LAS NUEVAS RADIOS .\n- INSTALAR RET CONECTADO A L1800 DESDE RADIO 4485 B1/B3/B7. NECESARIOS 1 NUEVO CABLE AISG 15m.\n- LAS TECNOLOGIAS SE CONFIGURAN DE LA SIGUIENTE FORMA EN RBS6201:\nPARA INTEGRAR EL S4 EN TODAS LAS TECNOLOGIAS (EXCEPTO U2100) HAY QUE MOVER L800/IOT800 DE BB5216 A BB6631\nY MOVER L2100/L1800 DE BB6631 A BB6651 (HAY QUE CAMBIAR TAMBIEN LAS FO).\n- BB5216 (CATX0530M): GU900 OSP + U2100 OSP\n- BB6631 (CATX0530L): LNR700 OSP + L2600 OSP + L800 OSP + IOT OSP\n- BB6651 (CATX0530G): NR3600 OSP + L1800 OSP + L2100 OSP\nTX:\n- BB5216 EXISTENTE (L800/GU900/U2100): 0/2/29 BX1723RT1\n- BB6631 EXISTENTE (LNR700/L1800/L2100/L2600): 0/2/28 BX1723RT1\n- BB6651 (NR3500):: 0/2/1 BX1723RT1\nCONEXIONADO PARA EL NUEVO SECTOR S4:\nR1: GU900 OSP + L800 OSP + IOT800 OSP + LNR700 OSP\nR2: L800 OSP + IOT800 OSP + LNR700 OSP\nY1:L1800/L2100/L2600 OSP\nY2: L1800/L2100/L2600 OSP",
+      "resumen": {
+        "otros": [
+          "TRABAJOS A REALIZAR POR ORANGE:",
+          "BB5216 (CATX0530M): GU900 OSP + U2100 OSP",
+          "BB6631 (CATX0530L): LNR700 OSP + L2600 OSP + L800 OSP + IOT OSP",
+          "BB6651 (CATX0530G): NR3600 OSP + L1800 OSP + L2100 OSP TX:",
+          "BB5216 EXISTENTE (L800/GU900/U2100): 0/2/29 BX1723RT1",
+          "BB6631 EXISTENTE (LNR700/L1800/L2100/L2600): 0/2/28 BX1723RT1"
+        ],
+        "plan": [
+          "IMPLANTAGION DEL 700/3500 EN VUELO",
+          "PLAN INTEGRACION_SECTORIZACIONES - EXCLUSION INCENTIVADO.SE ANADE UN NUEVO SECTOR. Pasar de 10° 115° 240° a 10° 115° 240° 300°."
+        ],
+        "tecnologias": [
+          "TECNOLOGIAS: CEFLMNPQTY."
+        ],
+        "mantener": [
+          "SE MANTIENEN LAS BB EXISTENTES."
+        ],
+        "instalar": [
+          "INSTALAR 2 NUEVOS RAILES MODELO Rail Gen2, 321mm EN PARED PARA LAS NUEVAS RRUs A INSTALAR. SE INSTALARAN EN PARED CONTIGUA A LAS RRUs 4499, EN DOS NIVELES. NECESARIAS DOS PIEZAS DE ANCLAJE A RAIL GEN2.",
+          "INSTALAR EN PDU OSP, NUEVO DISY DE 50A PARA NUEVA RADIO 4485, NUEVO DISY DE 32A PARA NUEVA RADIO 4486 Y NUEVO DISY DE 50A PARA NUEVA AIR.",
+          "INSTALAR 1xNUEVA ANTENA A04220PA01V06 EN POLE INSTALADO POR TOTEM. SE INSTALA CON LA SIGUIENTE ORIENTACION: 3002 Y COMPACTAR TECNOLOGIAS EN DICHAS ANTENAS.",
+          "INSTALAR 1xNUEVA ANTENA AIR 6419 3,5 B78Y 5G EN POLE INSTALADO POR TOTEM,POR ENCIMA DE LA PASIVA A INSTALAR . SE INSTALA CON LA SIGUIENTE ORIENTACION: 300° .",
+          "INSTALAR 2xNUEVAS TIRADAS DE F.O. Y 1xNUEVA Vcc (6mm2) DE 30m PARA LA NUEVA AIR6419 B78Y.",
+          "INSTALAR 1xNUEVAS RRU's 4486 B8/B20/B28 para L800/loT/GU900/LNR700 OSP +1xNUEVA RRU's 4485 B1/B3/B7 para L1800/L2100/L2600 OSP.",
+          "INSTALAR 4xTIRADAS DE F.O. Y 2 Vcc(6mm2 PARA RRU 4486, 10mm2 PARA RRU 4485) DE 20m PARA LAS NUEVAS RADIOS.",
+          "INSTALAR 8xTIRADAS DE COAXIAL 1/2\" DE 15m, PARA LAS NUEVAS RADIOS .",
+          "INSTALAR RET CONECTADO A L1800 DESDE RADIO 4485 B1/B3/B7. NECESARIOS 1 NUEVO CABLE AISG 15m."
+        ],
+        "alimentar": [
+          "ALIMENTAR PDU OSP CON CABLE DE 50mm2."
+        ],
+        "reubicar": [
+          "REUBICAR S3 A NUEVO BIFIDO A INSTALAR POR TOTEM."
+        ],
+        "configuracion": [
+          "LAS TECNOLOGIAS SE CONFIGURAN DE LA SIGUIENTE FORMA EN RBS6201: PARA INTEGRAR EL S4 EN TODAS LAS TECNOLOGIAS (EXCEPTO U2100) HAY QUE MOVER L800/IOT800 DE BB5216 A BB6631 Y MOVER L2100/L1800 DE BB6631 A BB6651 (HAY QUE CAMBIAR TAMBIEN LAS FO)."
+        ],
+        "conexionado": [
+          "BB6651 (NR3500):: 0/2/1 BX1723RT1 CONEXIONADO PARA EL NUEVO SECTOR S4: R1: GU900 OSP + L800 OSP + IOT800 OSP + LNR700 OSP R2: L800 OSP + IOT800 OSP + LNR700 OSP Y1:L1800/L2100/L2600 OSP Y2: L1800/L2100/L2600 OSP"
+        ]
+      }
+    },
+    "totem": {
+      "texto": "TRABAJOS A REALIZAR POR PROPIETARIO:\n\n- AMPLIAR HUECO PASAMUROS POR FALTA DE ESPACIO. RETIRAR REJIBAND EXISTENTE Y AMPLIAR 15 CM HACIA LA\nDERECHA PARA NO DEBILITAR ZONA DEL MURO DONDE SE SITUA PLETINA DE MASTIL.\n\n- INSTALAR NUEVO TRAMO DE REJIBAND DE APROXIMADAMENTE 6m EN INTERIOR DE LOCAL, EN PARED, PARA PASAR\nNUEVOS CABLEADOS ALAS NUEVAS RRUs\n\n- SUSTITUIR SOPORTE ACTUAL DEL S3 POR NUEVO SOPORTE BIFIDO.\n\n- INSTALAR NUEVO TUBO SOPORTE DE 3,5m Y @80 mm PARA EL SECTOR 4\n\n- SUSTITUIR DISYUNTOR DE125A QUE ALIMENTA LA PDU DE OSP POR DOS NUEVOS DISY PUENTEADOS DE 80A.",
+      "resumen": {
+        "otros": [
+          "TRABAJOS A REALIZAR POR TOTEM:"
+        ],
+        "ampliar": [
+          "AMPLIAR HUECO PASAMUROS POR FALTA DE ESPACIO. RETIRAR REJIBAND EXISTENTE Y AMPLIAR 15 CM HACIA LA DERECHA PARA NO DEBILITAR ZONA DEL MURO DONDE SE SITUA PLETINA DE MASTIL."
+        ],
+        "instalar": [
+          "INSTALAR NUEVO TRAMO DE REJIBAND DE APROXIMADAMENTE 6m EN INTERIOR DE LOCAL, EN PARED, PARA PASAR NUEVOS CABLEADOS ALAS NUEVAS RRUs",
+          "INSTALAR NUEVO TUBO SOPORTE DE 3,5m Y @80 mm PARA EL SECTOR 4"
+        ],
+        "sustituir": [
+          "SUSTITUIR SOPORTE ACTUAL DEL S3 POR NUEVO SOPORTE BIFIDO.",
+          "SUSTITUIR DISYUNTOR DE125A QUE ALIMENTA LA PDU DE OSP POR DOS NUEVOS DISY PUENTEADOS DE 80A."
+        ]
+      }
+    }
+  }
+}

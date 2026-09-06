@@ -1,0 +1,19 @@
+{
+    "rectangles": {
+        "nodo_A": [800, 760, 950, 830],
+        "direccion_A": [360, 730, 560, 830],
+        "titulo_pagina_A": [950, 750, 1100, 800],
+        "coordenadas_A1": [260, 730, 350, 830],
+        "coordenadas_A2": [940, 640, 1150, 700],
+
+        "nodo_B": [850, 675, 1000, 695],
+        "direccion_B": [850, 690, 1000, 745],
+        "titulo_pagina_B": [850, 785, 1050, 810],
+        "coordenadas_B1": [630, 460, 880, 550]
+    },
+    "colores_hsv": {
+        "orange": {"lower": [5, 100, 100], "upper": [20, 255, 255]},
+        "totem": {"lower": [140, 50, 50], "upper": [170, 255, 255]},
+        "cellnex": {"lower": [40, 80, 80], "upper": [90, 255, 255]}
+    }
+}

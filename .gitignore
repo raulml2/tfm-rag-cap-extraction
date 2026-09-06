@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Variables de entorno y configuraciones sensibles
+.env
+.env.*
+secrets.json
+config_local.json
+
+# Datos brutos, documentos y PDFs de clientes/operadores
+data/*
+!data/final/
+!data/final/**
+*.docx
+*.xls
+*.csv
+# Excepción: mantener archivo de configuración base/dummy si se desea
+!config.example.json
+
+# Índices vectoriales y embeddings precomputados (evitar subir datos del cliente)
+*.faiss
+*.pkl
+*.index
+*.bin
+cap_docs_*.pkl
+cap_index_*.faiss
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+*.db
+
+# Archivos temporales de IDEs y sistemas operativos
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
